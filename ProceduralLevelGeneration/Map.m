@@ -32,6 +32,7 @@
         self.gridSize = gridSize;
         _spawnPoint = CGPointZero;
         _exitPoint = CGPointZero;
+        [self generateTileGrid];
     }
     return self;
 }
